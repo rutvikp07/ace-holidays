@@ -1,0 +1,269 @@
+html,
+body {
+    margin: 0%;
+    padding: 0px;
+}
+.logo {
+
+    padding: 0%;
+}
+.cname {
+
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding-right: 250px;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 32px;
+    display: inline-block;
+    font-family: 'PT Sans Caption', sans-serif;
+
+}
+.navbar{
+    text-align: center;
+    display: none;
+}
+.burger {
+    position: absolute;
+    cursor: pointer;
+    right: 30px;
+    top: 20px;
+    display: none;
+
+}
+
+.line {
+    width: 25px;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    margin: 5px 5px;
+}
+
+nav a:hover {
+    color: rgb(208, 208, 150);
+}
+
+nav li {
+    display: inline-block;
+    padding: 25px;
+
+
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+
+
+}
+
+.txt_res {
+    display: none;
+}
+
+nav ul {
+
+    padding-left: 100px;
+    margin-bottom: 0px;
+
+}
+
+.slide_p {
+    height: 500px;
+    width: 100%;
+}
+
+.res_slide {
+    display: none;
+}
+
+.destination {
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+
+
+
+.des {
+    font-size: 50px;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.des_abt {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.dimg, .dimg-a {
+    width: 200px;
+    height: 200px;
+    
+}
+.box-container-a{
+    text-align: center;
+    overflow: auto;
+    white-space: nowrap;
+}
+.box-container {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.box-a{
+    
+    text-align: center;
+}
+.box , .box-a {
+    display: inline-block;
+    border: 2px solid rgb(46, 45, 45);
+    padding: 15px;
+    margin: 10px;
+    transition: margin 0.5s;
+    box-shadow: 3px 3px 3px 3px #21212194;
+}
+.box-ab{
+    display: inline-block;
+    border: 2px solid rgb(46, 45, 45);
+    padding: 20px 25%;
+    margin: 10px;
+    box-shadow: 3px 3px 3px 3px #21212194;
+}
+
+.box:hover {
+   
+   margin: 10px;
+   text-align: center;
+   background-color: rgba(165, 186, 197, 0.703);
+
+}
+
+.content {
+    text-align: center;
+    font-style: unset;
+
+}
+.content span{
+   color: orange;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 25px;
+}
+
+.btn {
+    border: black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(247, 200, 98);
+    margin: 8px 5px;
+
+}
+.btn:hover{
+   background-color: rgb(143, 213, 236);
+}
+
+.abt_us {
+    padding-top: 50px;
+    display: inline-flex;
+    border-width: 5px;
+}
+
+.ab_img {
+    align-items: left;
+    text-align: center;
+    margin-left: 150px;
+    border: none;
+}
+
+.ab_txt {
+    text-align: center;
+    margin: 15px 60px;
+    position: relative;
+}
+
+
+
+
+
+
+footer {
+    text-decoration: none;
+    text-align: center;
+    border-radius: 2px;
+    background-color: rgb(96, 96, 96);
+    color: white;
+    display: inline-flex;
+
+}
+
+.f_txt {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.f_mail,
+.f_query {
+    border: 2px solid black;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.f_submit {
+    margin-top: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+}
+
+.f_con {
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+.f_con a {
+    color: white;
+}
+
+.f_cr {
+    text-align: center;
+    font-size: 13px;
+    padding: 13px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+
+.ig{
+   text-align: center;
+   text-decoration: none;
+   padding: 20px;
+   font-family: sans-serif;
+}
+.ig a{
+   color: black;
+}
+
+
+/*  Services CSS */
+
+.r_img {
+    background-color: rgb(225, 225, 41);
+    width: 120px;
+    border: 5px rgba(28, 28, 28, 0.715) solid;
+    padding: 15px;
+    
+}
+
+.s_box {
+    display: inline-block;
+    align-items: center;
+}
+
+.s_box-container {
+    margin: 0 5%;
+    text-align: center;
+}
